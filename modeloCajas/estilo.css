@@ -1,0 +1,16 @@
+#box-1, #box-2, #box-3{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+  }
+  #box-1{
+    margin: 20px;
+  }
+  #box-2{
+    margin: 30px;
+  }
+  #box-3{
+  
+    margin-top: 50px;
+  }
+  

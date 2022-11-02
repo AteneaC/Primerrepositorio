@@ -1,0 +1,26 @@
+.buscar{
+
+    width: 180px;
+    height: 25px;
+    background-color: white;
+    color: aqua;
+    border-radius: 50px;
+    border: solid 1px aqua;
+
+}
+.mas{
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    color: white;
+    border-radius: 100%;
+    border-color: aqua;
+}
+.crear{
+    width: 220px;
+    height: 35px;
+    background-color: rgb(26, 134, 235);
+    color: white;
+    box-shadow: 3px 3px black;
+}
+   

@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(89, 243, 184);
+}
+h1 {
+    background-color: red;
+}
+
+#Principal {
+    background-color: rgb(238, 198, 198);
+    height: 500px ;
+    width: 200px;
+    margin:auto;
+    text-align: center;
+    
+}
+.formulario {
+    text-align: center;
+    margin: auto;
+    
+}
+* {
+    outline: 2px solid red; 
+}
