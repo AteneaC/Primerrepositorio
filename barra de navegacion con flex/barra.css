@@ -1,5 +1,36 @@
+*{
+    font-family: cursive;
+}
 .nav{
+    background-color: rgb(141, 136, 136);
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    height: 88px;
+    justify-content: space-between;
+    padding: 7px;
 }
+.nav-links{
+    list-style: none;
+    align-items: center;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    
+}
+.boton{
+    text-align: right;
+    background-color: rgb(70, 204, 238);
+    color: rgb(255, 255, 255);
+    height: 30px;
+    box-shadow: 4px 4px black;
+    margin-right: 40px;
+}
+.nav-title{
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-links a{
+    color: rgb(255, 255, 255);
+}
+
