@@ -1,0 +1,33 @@
+*{
+    margin:0 ;
+    padding: 0;
+    font-family: cursive;
+}
+.container{
+    border: 3px solid rgb(78, 78, 78);
+    width: 350px;
+    margin: 20px;
+    height: 250px;
+}
+.azul{
+    background-color: rgb(23, 136, 156);
+    height: 70px;
+}
+.ftperfil{
+    width: 65px;
+    border: 3px solid wheat;
+    border-radius: 65px;
+    position: relative;
+    top: 35px;
+    left: 15px;
+}
+.texto{
+    height: 10px;
+    flex-direction: column;
+    display: flex;
+    padding: 15px;
+    margin-top: 15px;
+}
+.icono{
+    width: 10px;
+}
