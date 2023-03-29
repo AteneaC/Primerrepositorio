@@ -1,0 +1,245 @@
+*{margin: 0;
+padding: 0;
+font-family: cursive;
+}
+
+/*barra de navegacion*/
+
+.primer{
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    width: 100%;
+}
+.primer-links{
+    display: flex;
+    align-items: center; 
+    gap: 20px; /*poner mismo espcio de separacion*/
+    height: 100%;
+    padding-left: 10px;
+    color: white;
+    list-style: none; /*borra puntos de una lista*/
+}
+.primer a{
+    color: white;
+    align-items: center;
+}
+
+.boton{
+    color: white;
+    background-color: rgb(50, 182, 182);
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+
+
+
+
+.contenedor-principal{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: 20px;
+}
+
+.contenedor-derecha{
+    margin-right: 10px;
+    
+}
+.contenedor-izquierdo{
+    margin-left: 10px;
+}
+
+
+
+.tarjeta-usuario{
+    border: 3px solid rgb(180, 180, 180);
+    width: 350px;
+    height: 250px;
+}
+.tarjeta-usuario a{
+    color: rgb(72, 129, 202);
+}
+.tarjeta-usuario h3{
+    color: rgb(105, 105, 105);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.azul{
+    background-color: rgb(44, 124, 124);
+    height: 70px;
+}
+.ftusuario{
+  width: 65px;
+  border: 3px solid white;
+  border-radius: 65%;
+  position: relative;
+  top: 35px;
+  left: 15px;
+}
+.texto{
+    height: 10px;
+    flex-direction: column;
+    display: flex;
+    padding: 15px;
+    margin-top: 15px;
+}
+.ftusuario{
+    width: 60px;
+    
+}
+.ftubi{
+    width: 15px;
+}
+.ftconfi{
+    width: 15px;
+}
+.icono{
+    width: 30px;
+    display: flex;
+    flex-direction: columns;
+    margin-bottom: 15px;
+}
+.icono2{
+    border-radius: 50%;
+    height: 30px;
+    margin: 0px 10px 0px 0px;  
+}
+ .ftusuario2{
+    width: 30px;
+    display: flex;
+    flex-direction: columns;
+    margin-bottom: 20px;
+ }
+ .img-derecha2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+ 
+
+.tarjeta1{
+    border: 3px solid rgb(180, 180, 180);
+    width: 350px;
+    margin-top: 10px;
+    height: 160px;
+    top: 2;
+}
+.n{
+    background-color: rgb(59, 59, 59);
+    height: 30px;
+    color: white;
+    padding: 10px;
+}
+
+
+.tarjeta1 {
+  height: 176px;
+}
+.usuario2{
+ background-color: rgb(51, 50, 50);
+ height: 50px;
+ color: white;
+ display: flex;
+}
+.tarjeta2{
+    border: 3px solid  rgb(180, 180, 180);
+    width: 200px;
+    height: 140px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.tarjeta2 p{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.tarjeta2 img{
+    margin-top: 3px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+}
+.dos{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: white;
+}
+.tarjeta2 button{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.tarjeta2 h4{
+    margin-top: 10px;
+}
+.img2{
+    display: flex;
+    margin-bottom: 10px;
+}
+.imgc2{
+ margin-left: 30px;
+}
+.imgc3{
+    margin-left: 40px;
+}
+
+
+
+
+
+
+.tarjeta3{
+    border: 3px solid rgb(180, 180, 180);
+    width: 200px;
+    margin-top: 10px;
+    height: 225px;
+    margin-left: 5px;
+}
+.usuario3{
+    background-color: rgb(51, 50, 50);
+    height: 50px;
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+.tres{
+    width: 45px ;
+    height: 25px;
+    border-radius: 80%;
+    background-color: white; 
+}
+.usuario3 button{
+ margin-top: 14px;
+ margin-left: 5px;
+}
+
+.tarjeta3 h4{
+    text-align: left;
+    display: flex;
+    align-items: center;
+
+}
+.img3{
+    display: flex ;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.img3 p{
+    margin-left: 5px;
+}
+.tarjeta4{
+    border: 3px solid rgb(180, 180, 180);
+    width: 200px;
+    height: 45px;
+    margin-left: 5px;
+    
+}
+.tarjeta4 a{
+  color: rgb(72, 129, 202);
+}
+.tarjeta4 h4{
+    margin-left: 5px;
+    margin-top: 10px;
+}
