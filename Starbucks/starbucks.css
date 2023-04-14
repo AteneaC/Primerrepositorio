@@ -1,0 +1,168 @@
+*{
+    outline-style: solid ;
+}
+.primer-contenedor{
+    width: 1500px;
+    margin: 0 ; 
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.starbucks-IMG{
+    padding-left: 20px;
+}
+.navegacion{
+    width: 1750px;
+    border: 2px solid blue;
+    background-color: #FFFFFF;
+}
+.nav{
+    border: 2px solid goldenrod;
+    padding: 20px 0px;
+    height: 50px;
+    width: 1320px;
+    display: flex;
+    font-size: 13px;
+    gap: 50px;
+    padding-left: 248px;
+    
+}
+
+
+.navegacion2{
+    display: flex;
+    align-items: center;
+    margin-left: 270px;
+}
+.ubicacion-IMG{
+    display: flex;
+    height: 22px;
+}
+.iniciar-sesión{
+    margin-left: 40px;
+    padding: 7px 16px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    font-size: 16px;
+    border-radius: 20px;
+}
+.únete{
+    padding: 7px 16px;
+    margin-left: 30px;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.menu{
+    margin-left: 158px;
+    display: flex;
+    width: 1400px;
+    height: 468px;
+    background-color: #44C2E0;
+    border: 2px solid black;
+}
+.menu1{
+    width: 163px;
+    height: 53px;
+    margin-top: 80px;
+    padding-left: 75px;
+    width: 555px;
+    height: 268px;
+    background-color: #44C2E0;
+    border: 2px solid rgb(255, 0, 0);
+    color: white;
+}
+.menu h1{
+    font-size: 50px;
+    text-align: center;
+}
+.menu button{
+    margin-left: 200px;
+    background-color: #44C2E0;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    padding: 7px 16px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.menu2{
+    display: flex;
+    margin-left: 158px;
+    margin-top: 30px;
+    background-color: rgb(203, 162, 88);
+    border: 2px solid rgb(0, 255, 200);
+    height: 408px;
+    width: 1400px;
+    color: #1e3932;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu2 button{
+    background-color: rgb(203, 162, 88);
+    border: 2px solid #1e3932;
+    color: #1e3932;
+    border-radius: 20px;
+}
+.menu3{
+    margin-left: 20px;
+    background-color: #44C2E0;
+    background-color: rgb(203, 162, 88);
+    border: 2px solid rgb(43, 255, 0);
+}
+.texto1{
+    text-align: center;
+    width: 520px;
+    margin-left: 110px;
+    margin-right: 130px;
+    margin-top: 50px;
+    border: 2px solid rgb(128, 0, 107);
+    font-size: 21px;
+}
+.texto1 p{
+    width: 305px;
+}
+.mtext1{
+    border: 2px solid navy;
+    width: 520px;
+    margin-top: 50px;
+    font-size: 21px;
+    
+}
+.MD{
+    margin-left: 158px;
+    display: flex;
+    width: 1400px;
+    height: 615px;
+    background-color: #D4E9E2;
+    border: 2px solid black;   
+    margin-top: 30px; 
+}
+.MD img{
+    width: 700px;
+    height: 615px;
+}
+.SD{
+    width: 163px;
+    height: 53px;
+    margin-top: 80px;
+    padding-left: 75px;
+    width: 555px;
+    height: 268px;
+    background-color: #D4E9E2;
+    border: 2px solid rgb(255, 0, 0);
+    color: #00754A;
+}
+.MD button{
+    margin-left: 200px;
+    background-color: #44C2E0;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    padding: 7px 16px;
+    font-weight: bold;
+    font-size: 16px;
+}

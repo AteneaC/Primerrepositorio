@@ -14,4 +14,4 @@ function add(num1, num2){
         console.log(sum);
     }
     // el console.log imprime sumando numeros, el valor de num1 y num2, el valor 38
-    
+                                                         
