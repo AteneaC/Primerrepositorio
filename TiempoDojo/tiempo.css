@@ -1,0 +1,169 @@
+.contenedor-principal{
+    width: 1000px;
+    margin: auto;
+}
+.barra{
+    background-color: #9FC5F8;
+    height: 55px;
+    width: 835px;
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.barra p{
+    margin-left: 20px;
+    font-size: 19px;
+}
+.primer-title{
+    margin-left: 20px;
+    margin-right: 370px;
+}
+.segunda-barra{
+    background-color: white;
+    height: 55px;
+    width: 900px;
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+    color: black;
+    gap: 10px;
+}
+.segundo-title{
+    margin-left: 75px;
+    margin-right: 450px;
+}
+.segunda-barra p{
+    font-size: 18px;
+}
+.tiempo{
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+}
+.contenedores{
+    border-top: 3px solid black;
+    width: 835px;
+    margin-left: 90px;
+    display: flex;
+    gap: 25px;
+}
+.PC{
+    background-color: #EEEEEE;
+    width: 190px;
+    text-align: center;
+}
+.PC img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: -20px;
+    border-radius: 100px;
+}
+.PC p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.PCT{
+    display: flex;
+    gap: 80px;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: -25px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.R{
+    color: red;
+}
+.A{
+    color: #2B78E4;
+}
+.SC{
+    background-color: #EEEEEE;
+    width: 190px;
+    text-align: center;
+}
+.SC img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: -20px;
+    border-radius: 100px;
+}
+.SC p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.TC{
+    background-color: #EEEEEE;
+    width: 190px;
+    text-align: center;
+}
+.TC img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: -20px;
+    border-radius: 100px;
+}
+.TC p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.CC{
+    background-color: #EEEEEE;
+    width: 190px;
+    height: 360px;
+    text-align: center;
+}
+.CC img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: -20px;
+    border-radius: 100px;
+}
+.CC p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.ultimo-contenedor{
+    display: flex;
+    border: 3px solid black;
+    margin-left: 90px;
+    width: 835px;
+    height: 130px;
+}
+.UCI{
+    width: 140px;
+    text-align: center;
+    margin-top: 20px;
+}
+.UCI img{
+    width: 70px;
+    height: 70px;
+}
+.UCT{
+    width: 470px;
+    font-size: 19px;
+}
+.UCT h3{
+    margin-bottom: -18px;
+    font-weight: bold;
+}
+.UCT p{
+    margin-bottom: -2px;
+}
+.UCT a{
+    color: #2F6DA3;
+}
+.UCB{
+width: 200px;
+text-align: center;
+}
+.UCB button{
+    background-color: #9FC5F8;
+    counter-reset: black;
+    width: 100px;
+    height: 40px;
+    margin-top: 45px;
+    border: 3px solid black;
+    font-weight: bold;
+}

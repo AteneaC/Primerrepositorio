@@ -1,0 +1,153 @@
+.contenedor-principal{
+    width: 1000px;
+    margin: auto;
+}
+.barra{
+    background-color: black;
+    height: 55px;
+    width: 700px;
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.primer-title{
+    margin-left: 20px;
+}
+.segunda-barra{
+    background-color: white;
+    height: 55px;
+    width: 700px;
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.segundo-title{
+    margin-left: 340px;
+}
+.contenedores{
+    margin-left: 90px;
+    width: 700px;
+    height: 600px;
+    display: flex;
+}
+.contenedor-primer{
+    border: 2px solid black;
+    width: 170px;
+    height: 270px;
+}
+.PC{
+    width: 170px;
+    height: 270px;
+}
+.PC img{
+    height: 75px;
+    width: 75px;
+    margin-left: 48px;
+    margin-top: 35px;
+}
+.PC p{
+    font-size: 28px;
+    margin-left: 25px;
+}
+.PC a{
+    color: rgb(27, 110, 187);
+}
+.link{
+    margin-left: 30px;
+    margin-top: 35px;
+    font-size: 19px;
+}
+.contenedor-segundo{
+    margin-left: 20px;
+    width: 500px;
+    height: 600px;
+}
+.SC{
+    border: 2px solid black;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 160px;
+}
+.SC p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.SC a{
+    color: rgb(27, 110, 187);
+}
+.SCB{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 18px;
+}
+.SCB p{
+    margin-left: 230px;
+}
+.SCB button{
+    margin-left: 20px;
+    width: 80px;
+    height: 40px;
+    background-color: #FFD966;
+}
+
+.TC{
+    border: 2px solid black;
+    width: 500px;
+    height: 160px;
+    margin-bottom: 20px;
+}
+.TC p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.TC a{
+    color: rgb(27, 110, 187);
+}
+.TCB{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 18px;
+}
+.TCB p{
+    margin-left: 190px;
+}
+.TCB button{
+    margin-left: 20px;
+    width: 80px;
+    height: 40px;
+    background-color: #FFD966;
+}
+
+.CC{
+    border: 2px solid black;
+    width: 500px;
+    height: 160px;
+    margin-bottom: 20px;
+}
+.CC p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.CCB{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 18px;
+}
+.CCB p{
+    margin-left: 230px;
+}
+.CC a{
+    color: rgb(27, 110, 187);
+}
+.CCB button{
+    margin-left: 20px;
+    width: 80px;
+    height: 40px;
+    background-color: #FFD966;
+}
+
