@@ -26,14 +26,11 @@
                         <img src="usuarioo.png" alt="user" class="ftusuario">
                         </div>
                         <div class="texto">
-                            <h2>Jane Done</h2>
+                            <h2 id="username">Jane Done</h2>
                             <h3><img src="ubicacion.png" alt="imgubi" class="ftubi"/>Seattle</h3>
-                            <p>
-                                Developer|Enginner|Problem Solver
-                                <br>
-                                Master of shadows and the Internet
-                            </p>
-                            <a href="a"><h4><img src="gear-icon-sprocket-setting-on-white-background-free-vector.jpg" alt="" class="ftconfi"/>edit profile</h4></a>
+                            <p>Developer|Enginner|Problem Solver<br>
+                            Master of shadows and the Internet!</p>
+                            <p onclick="edit()"><a href="#"></a><img src="gear-icon-sprocket-setting-on-white-background-free-vector.jpg" alt="" class="ftconfi"/>edit profile</a></p>
                     </div>
                 </div>
 
@@ -52,20 +49,20 @@
         <div class="contenedor-derecha">
             <div class="tarjeta2">
                 <div class="usuario2">
-                    <button class="dos">2</button>
+                    <button class="dos" id="requests">2</button>
                     <h4>Connections Request</h4>
                 </div>
-                <div class="img2">
+                <div class="img2" id="request-1">
                     <img src="usuarioo.png" alt="" ><p> Todd E</p> 
                     <div class="imgc2"></div> 
-                    <img src="xcircle.png" alt="">
-                    <img src="acircle.png" alt="">
+                    <img src="xcircle.png" alt="" class="icon" onclick='accept("#request-1")'>
+                    <img src="acircle.png" alt="" class="icon" onclick='ignore("#request-1")'>
                     </div>
-                    <div class="img2">
+                    <div class="img2" id="request-2">
                     <img src="usuarioo.png" alt="" ><p> Phil K</p>  
                     <div class="imgc3"></div> 
-                    <img src="xcircle.png" alt="">
-                    <img src="acircle.png" alt="">    
+                    <img src="xcircle.png" alt=""  class="icon" onclick='ignore("#request-2")'>
+                    <img src="acircle.png" alt=""  class="icon" onclick='accept("#request-2")'>    
                     </div>
             </div>
 
@@ -98,3 +95,7 @@
                     </div>
                     
                 </div> 
+        </div>
+        <script src="conexiones.js"></script>
+</body>    
+</html>

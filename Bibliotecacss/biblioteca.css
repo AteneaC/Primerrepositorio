@@ -1,0 +1,30 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+width: 1200px;
+margin: auto;
+}
+.navbar{
+    display: flex;
+    width: 1200px;
+    height: 60px;
+    background-color: rgb(166, 235, 212);
+    color: black;
+    padding-top: 5px;
+}
+.button{
+    background-color: rgb(110, 180, 169);
+    border-radius: 50px;
+}
+.row{
+    border: 2px solid red;
+}
+.col{
+
+}

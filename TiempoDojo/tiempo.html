@@ -11,7 +11,7 @@
     <div class="contenedor-principal">
         <div class="barra">
             <h1 class="primer-title">DojoWeather</h1>
-            <p>Burbank</p>
+            <p onclick="alert('Loading weather report')">Burbank</p>
             <p>Chicago</p>
             <p>Dallas</p>
         </div>
@@ -64,8 +64,8 @@
             </div>
             </div>
         </div>
-        <div class="ultimo-contenedor">
-            <div class="UCI">
+        <div class="ultimo-contenedor" onclick="hide(this)">
+            <div class="UCI" >
                 <img src="cookie.png" alt="cookie">
             </div>
             <div class="UCT">
@@ -73,9 +73,10 @@
                 <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="">Read more...</a></p>
             </div>
             <div class="UCB">
-                <button>I Accept</button>
+                <button onclick="hide(this)" >I Accept </button>
             </div>
         </div>
         </div>
+        <script src="tiempo.js"></script>
 </body>
 </html>
