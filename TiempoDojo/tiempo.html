@@ -18,7 +18,7 @@
         <div class="segunda-barra">
             <h1 class="segundo-title">San Jose</h1>
             <p>show temperature in</p>
-            <select name="tiempo" class="tiempo">
+            <select name="tiempo" class="tiempo" onchange="convert(this)">
                 <option>°C</option>
                 <option>°F</option>
             </select>
@@ -29,8 +29,8 @@
                 <img src="some_rain.png" alt="lluvia">
                 <p>some rain</p>
             <div class="PCT">
-                <h3 class="R">24°</h3>
-                <h3 class="A">18°</h3>
+                <h3 class="R" id="temp1">24°</h3>
+                <h3 class="A" id="temp2">18°</h3>
             </div>
             </div>
 
@@ -39,8 +39,8 @@
                 <img src="some_sun.png" alt="lluvia">
                 <p>some sun</p>
             <div class="PCT">
-                <h3 class="R">27°</h3>
-                <h3 class="A">19°</h3>
+                <h3 class="R" id="temp3">27°</h3>
+                <h3 class="A" id="temp4">19°</h3>
             </div>
             </div>
 
@@ -49,8 +49,8 @@
                 <img src="some_clouds.png" alt="lluvia">
                 <p>some clouds</p>
             <div class="PCT">
-                <h3 class="R">21°</h3>
-                <h3 class="A">16°</h3>
+                <h3 class="R" id="temp5">21°</h3>
+                <h3 class="A" id="temp6">16°</h3>
             </div>
             </div>
 
@@ -59,8 +59,8 @@
                 <img src="some_sun.png" alt="lluvia">
                 <p>some sun</p>
             <div class="PCT">
-                <h3 class="R">26°</h3>
-                <h3 class="A">21°</h3>
+                <h3 class="R" id="temp7">26°</h3>
+                <h3 class="A" id="temp8">21°</h3>
             </div>
             </div>
         </div>
