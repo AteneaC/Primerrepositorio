@@ -19,12 +19,11 @@ margin: auto;
     padding-top: 5px;
 }
 .button{
-    background-color: rgb(110, 180, 169);
-    border-radius: 50px;
+    background-color: rgb(123, 110, 180);
 }
 .row{
     border: 2px solid red;
 }
 .col{
-
+    border-radius: 50px;
 }
