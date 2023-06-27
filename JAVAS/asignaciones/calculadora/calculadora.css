@@ -1,0 +1,29 @@
+.primer{
+    background-color: #222222;
+    width: 400px;
+    height: 550px;
+    margin-left: 750px;
+    margin-top: 25px;
+}
+.row{
+    padding-left: 20px;
+    display: flex;
+}
+.row button{
+    width: 65px;
+    height: 65px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 100%;
+}
+.operator{
+    background-color: #FF8C00;
+}
+.total button{
+    width: 310px;
+    height: 65px;
+    margin-top: 15px;
+    margin-left: 35px;
+    borde
+    
+}
