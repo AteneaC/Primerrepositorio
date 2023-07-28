@@ -1,0 +1,96 @@
+*{
+    outline-style: solid ;
+    padding: 0;
+    margin: 0;
+}
+.primer-contenedor{
+    margin: 0 ; 
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.redes-IMG{
+    padding-left: 5px;
+}
+.navegacion{
+    border: 2px solid blue;
+    background-color: #FFFFFF;
+    display: flex;
+}
+.nav{
+    border: 2px solid goldenrod;
+    padding: 15px 0px;
+    flex: 1;
+    font-size: 13px;
+    gap: 50px;
+    padding-left: 160px;  
+}
+.nav img{
+    height: 85px;
+    width: 160px;
+}
+.navegacion2{
+    flex: 1;
+    align-items: center;
+    margin-left: 815px;
+    display: flex;
+}
+.navegacion2 h3{
+    margin-left: 30px;
+    font-size: 17px;
+}
+
+.contact{
+    padding: 7px 16px;
+    margin-left: 30px;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+}
+.menu{
+    margin-top: 10px;
+    margin-left: 158px;
+    display: flex;
+    width: 1550px;
+    height: 470px;
+    background-color: #69a9f1;
+    border: 2px solid black;
+}
+.menu img{
+    width: 1550px;
+    height: 470px;
+}
+.segundo-contenedor{
+    margin-top: 30px;
+    margin-left: 158px;
+    display: flex;
+    width: 1550px;
+    height: 470px;
+    background-color: #69a9f1;
+    border: 2px solid black;
+}
+.tabla1{
+    width: 385px;
+    height: 450px;
+    margin-right: 5px;
+    background-color: white;
+}
+.tabla2{
+    width: 385px;
+    height: 450px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+}.tabla3{
+    width: 385px;
+    height: 450px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+}.tabla4{
+    width: 385px;
+    height: 450px;
+    margin-left: 5px;
+    background-color: white;
+}
