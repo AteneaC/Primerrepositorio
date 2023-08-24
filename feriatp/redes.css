@@ -1,44 +1,63 @@
 *{
-    outline-style: solid ;
     padding: 0;
     margin: 0;
 }
 .primer-contenedor{
-    margin: 0 ; 
-    font-family: Arial, Helvetica, sans-serif;  
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 240, 240);  
 }
 
 .redes-IMG{
     padding-left: 5px;
 }
 .navegacion{
-    border: 2px solid blue;
     background-color: #FFFFFF;
     display: flex;
 }
 .nav{
-    border: 2px solid goldenrod;
-    padding: 15px 0px;
+    display: flex;
+    padding: 10px 0px;
     flex: 1;
     font-size: 13px;
-    gap: 50px;
-    padding-left: 160px;  
+    padding-left: 150px;  
+}
+.ftitulo{
+    display: flex;
+}
+.ftitulo h1{
+    padding-bottom: 1px ;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ftitulo P{
+    padding-top: 15px ;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .nav img{
-    height: 85px;
-    width: 160px;
+    height: 60px;
+    width: 100px;
 }
 .navegacion2{
     flex: 1;
     align-items: center;
-    margin-left: 815px;
+    margin-left: 380px;
     display: flex;
 }
 .navegacion2 h3{
     margin-left: 30px;
     font-size: 17px;
 }
-
+.boton{
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.boton button{
+    background-color: #b3d5fc;
+    border-radius: 60px;
+    width: 100px;
+    height: 35px;
+}
 .contact{
     padding: 7px 16px;
     margin-left: 30px;
@@ -49,48 +68,165 @@
     border-radius: 20px;
 }
 .menu{
-    margin-top: 10px;
-    margin-left: 158px;
     display: flex;
-    width: 1550px;
-    height: 470px;
+    height: 500px;
     background-color: #69a9f1;
-    border: 2px solid black;
 }
 .menu img{
-    width: 1550px;
-    height: 470px;
+    width: 1950px;
+    height: 500px;
 }
 .segundo-contenedor{
-    margin-top: 30px;
     margin-left: 158px;
-    display: flex;
     width: 1550px;
-    height: 470px;
-    background-color: #69a9f1;
-    border: 2px solid black;
+    height: 245px;
+    display: flex;
 }
 .tabla1{
-    width: 385px;
-    height: 450px;
-    margin-right: 5px;
+    width: 1550px;
+    height: 330px;
+    margin-top: 15px;
+
+}
+.tabla1 h2{
+   margin-top: 10px;
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+   padding-left: 10px;
+   padding-bottom: 5px;
+   font-weight: bold;
+}
+.tabla1 p{
+    font-size: 19px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.pparrafo{
+    width: 1300px;
+    height: 180px;
     background-color: white;
+    border-top: 2px solid black ;
+    border-bottom: 2px solid black ;
+    border-left: 2px solid black ;
+}
+.pimg{
+    margin-top: 74px;
+    height: 180px;
+    width: 300px;
+    background-color: white;
+    border-top: 2px solid black ;
+    border-bottom: 2px solid black ;
+    border-right: 2px solid black ;
+}
+.pimg img{
+    height: 170px;
+    width: 290px;
+    padding-right: 2px;
+}
+
+.tercer-contenedor{
+    margin-left: 158px;
+    width: 1590px;
+    height: 490px;
+    display: flex;
 }
 .tabla2{
-    width: 385px;
-    height: 450px;
-    margin-left: 5px;
-    margin-right: 5px;
-    background-color: white;
-}.tabla3{
-    width: 385px;
-    height: 450px;
-    margin-left: 5px;
-    margin-right: 5px;
-    background-color: white;
-}.tabla4{
-    width: 385px;
-    height: 450px;
-    margin-left: 5px;
-    background-color: white;
+    width: 1590px;
+    height: 630px;
+}
+.stitulo{
+    width: 1590px;
+    height: 55px;
+    
+}
+.stitulo h2{
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.stablas{
+    display: flex;
+    width: 1590px;
+    height: 690px;
+    display: flex;
+}
+.stabla1{
+    width: 385px ;
+    height: 400px;
+    background-color: aquamarine;
+    margin-right: 15px;
+    margin-left: 2px;
+}
+.stabla2{
+    width: 385px ;
+    height: 400px;
+    background-color: aquamarine;
+    margin-right: 15px;
+}
+.stabla3{
+    width: 385px ;
+    height: 400px;
+    background-color: aquamarine;
+    margin-right: 15px;
+}
+.stabla4{
+    width: 385px ;
+    height: 400px;
+    background-color: aquamarine; 
+    margin-right: 15px;
+}
+.stabla5{
+    width: 385px ;
+    height: 400px;
+    background-color: aquamarine; 
+}
+.cuarto-contenedor{
+    margin-left: 158px;
+    width: 1590px;
+    height: 690px;
+    display: flex;
+}
+.tabla3{
+    width: 1590px;
+    height: 630px;
+}
+
+.ttablas{
+    display: flex;
+    width: 1590px;
+    height: 690px;
+    display: flex;
+}
+.ttabla1{
+    width: 385px ;
+    height: 400px;
+    background-color: aquamarine;
+    margin-right: 15px;
+    margin-left: 2px;
+}
+.ttabla2{
+    width: 385px ;
+    height: 400px;
+    background-color: aquamarine;
+    margin-right: 15px;
+}
+.ttabla3{
+    width: 385px ;
+    height: 400px;
+    background-color: aquamarine;
+    margin-right: 15px;
+}
+.ttabla4{
+    width: 385px ;
+    height: 400px;
+    background-color: aquamarine; 
+    margin-right: 15px;
+}
+.ttabla5{
+    width: 385px ;
+    height: 400px;
+    background-color: aquamarine; 
 }
